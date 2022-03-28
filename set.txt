@@ -13,7 +13,7 @@ sys.getsizeof(s)
 
 #2 method:
 s.__sizeof__()
-
+===============================================
 ## 2. iterate over a set in python
 
 s
@@ -38,7 +38,7 @@ print(*c)
 
 #5 method:
 print(*list(map(lambda x: x, s)))
-
+=======================================================
 ## 3. maximum and minimum in python
 
 s
@@ -62,7 +62,7 @@ list(filter(lambda x: x==list(s)[0],s))[0]
 #5 method:
 [i for i in list(map(lambda x: x if x==max(s) else 'n',s)) if type(i)==int][0]
 [i for i in list(map(lambda x: x if x==min(s) else 'n',s)) if type(i)==int][0]
-
+======================================================================================
 ## 4. revome item from set
 
 s = {1, 2, 3, 4, 5, 6}
@@ -88,7 +88,7 @@ set(filter(lambda x: x!=it,s))
 
 #5 method:
 {i for i in list(map(lambda x:x if x!=it else 'n',s)) if type(i)==int}
-
+==================================================================================
 ## 5.check if two list have at least one element common
 
 x1 = [1,2,3,4,5]
@@ -122,7 +122,7 @@ if len(list(filter(lambda x: x in x2,x1)))>0:
     print('True')
 else:
     print('False')
-
+===============================================================================
 ## 6. find missing and additional value in two list
 
 x1
@@ -155,7 +155,7 @@ set(x2).difference(set(x1))
 
 # additional in x2
 [i for i in x2 if i not in x1]
-
+===================================================================
 ## 7. to find difference between two list:
 
 x1
