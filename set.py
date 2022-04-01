@@ -16,7 +16,7 @@ s.__sizeof__()
 
 ## 2. iterate over a set in python
 
-s
+s = {1,2,3,4,5,6}
 
 #1 for loop:
 for i in s:
